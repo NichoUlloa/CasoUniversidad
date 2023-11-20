@@ -4,7 +4,7 @@
 1. modelo.Universidad
 2. modelo.Facultad
 3. modelo.Departamento
-3. Carrera Universitaria
+3. modelo.CarreraUniversitaria
 4. modelo.Trabajador
 4. modelo.Profesor
 5. modelo.Administrativo
