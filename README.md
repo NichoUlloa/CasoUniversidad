@@ -11,5 +11,4 @@
 6. test.Principal
 
 ### Diagrama de UML:
-
-
+![CasoUniversidad](https://github.com/NichoUlloa/CasoUniversidad/assets/145157325/07dee873-2d7c-40fd-8fb3-6f3d1718a4a8)
