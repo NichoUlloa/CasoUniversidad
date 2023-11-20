@@ -1,3 +1,5 @@
+package modelo;
+
 import java.util.List;
 
 public class Facultad {
@@ -41,7 +43,7 @@ public class Facultad {
 
     @Override
     public String toString() {
-        return "Facultad " + getNombreFacultad() + "\n" +
+        return "modelo.Facultad " + getNombreFacultad() + "\n" +
                 "latitud " + getLatitud();
     }
 }

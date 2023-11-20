@@ -1,3 +1,5 @@
+package modelo;
+
 public abstract class Trabajador {
     private String tituloProfesional;
     private String nombreTrabajador;
@@ -67,7 +69,7 @@ public abstract class Trabajador {
 
     @Override
     public String toString() {
-        return "Trabajador:\n" +
+        return "modelo.Trabajador:\n" +
                 "Nombre: " + nombreTrabajador + "\n" +
                 "Rut: " + rut + "\n" +
                 "Titulo profesional: " + tituloProfesional + "\n" +

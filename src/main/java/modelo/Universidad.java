@@ -1,3 +1,5 @@
+package modelo;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -145,7 +147,7 @@ public class Universidad {
 
     @Override
     public String toString() {
-        return "Universidad:\n" +
+        return "modelo.Universidad:\n" +
                 "Nombre: " + getNombreUniversidad() + "\n" +
                 "Tipo: " + getTipoUniversidad() + "\n" +
                 "Direcciones asociadas: " + getDireccionesAsociadas() + "\n";

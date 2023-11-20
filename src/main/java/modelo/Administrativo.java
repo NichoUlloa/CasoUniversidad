@@ -1,11 +1,11 @@
-public class Profesor extends Trabajador {
-    private String tipoJornada;
-    private String Facultad;
+package modelo;
 
-    public Profesor(String tituloProfesional, String nombreTrabajador, String direccion, String estadoCivil, String rut, String horario, String tipoJornada, String facultad) {
+public class Administrativo extends Trabajador {
+    private String tipoJornada;
+
+    public Administrativo(String tituloProfesional, String nombreTrabajador, String direccion, String estadoCivil, String rut, String horario, String tipoJornada) {
         super(tituloProfesional, nombreTrabajador, direccion, estadoCivil, rut, horario);
         this.tipoJornada = tipoJornada;
-        this.Facultad = facultad;
     }
 
     public String getTipoJornada() {
@@ -16,27 +16,18 @@ public class Profesor extends Trabajador {
         this.tipoJornada = tipoJornada;
     }
 
-    public String getFacultad() {
-        return Facultad;
-    }
-
-    public void setFacultad(String facultad) {
-        this.Facultad = facultad;
-    }
-
     public String getTipo() {
-        return "Profesor";
+        return "modelo.Administrativo";
     }
 
     @Override
     public String toString() {
-        return "Profesor:\n" +
+        return "modelo.Administrativo:\n" +
                 "Nombre: " + getNombreTrabajador() + "\n" +
                 "Rut: " + getRut() + "\n" +
                 "Titulo profesional: " + getTituloProfesional() + "\n" +
                 "Direccion: " + getDireccion() + "\n" +
                 "Estado civil: " + getEstadoCivil() + "\n" +
-                "Horario: " + getHorario() + "\n" +
-                "Tipo de jornada: " + getTipoJornada() + "\n";
+                "Horario: " + getHorario() + "\n";
     }
 }

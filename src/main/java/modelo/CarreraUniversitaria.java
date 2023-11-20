@@ -1,3 +1,5 @@
+package modelo;
+
 public class CarreraUniversitaria {
     private String nombreCarrera;
     private String facultad;
@@ -35,7 +37,7 @@ public class CarreraUniversitaria {
 
     @Override
     public String toString() {
-        return "CarreraUniversitaria " + getNombreCarrera() + "\n" +
+        return "modelo.CarreraUniversitaria " + getNombreCarrera() + "\n" +
                 "duracion " + getDuracion();
     }
 }

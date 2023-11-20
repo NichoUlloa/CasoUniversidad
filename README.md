@@ -1,14 +1,14 @@
-## Caso Universidad
+## Caso modelo.Universidad
 ### compuesta por las clases:
 
-1. Universidad
-2. Facultad
-3. Departamento
+1. modelo.Universidad
+2. modelo.Facultad
+3. modelo.Departamento
 3. Carrera Universitaria
-4. Trabajador
-4. Profesor
-5. Administrativo
-6. Principal
+4. modelo.Trabajador
+4. modelo.Profesor
+5. modelo.Administrativo
+6. test.Principal
 
 ### Diagrama de UML:
 

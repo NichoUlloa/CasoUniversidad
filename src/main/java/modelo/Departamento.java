@@ -1,3 +1,5 @@
+package modelo;
+
 import java.util.List;
 
 public class Departamento {
@@ -60,7 +62,7 @@ public class Departamento {
 
     @Override
     public String toString() {
-        return "Departamento " + getNombreDepartamento() + "\n" +
+        return "modelo.Departamento " + getNombreDepartamento() + "\n" +
                 "profesores " + getProfesores() + "\n" +
                 "administrativos " + getAdministrativos() + "\n" +
                 "carrerasUniversitarias " + getCarrerasUniversitarias();
